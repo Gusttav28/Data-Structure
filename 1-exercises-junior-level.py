@@ -53,7 +53,7 @@ def reversingList(*args):
     lisst = list(args)
     listTwo = list(lisst[0])
     listTwo.reverse()
-    print(listTwo)
+    print(f"This is the list converted: {listTwo}")
     
 
 # Find Maximum and Minimum
@@ -70,4 +70,5 @@ def max_min(*args):
 
 
 if __name__ == "__main__":
+    # junior level
     create_array(1, 2, 3, 4, 5)
